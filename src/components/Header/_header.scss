@@ -1,0 +1,26 @@
+header{
+  padding-block: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.nav{
+  &__links{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.6rem;
+  }
+}
+
+.cart__info{
+  top: 0;
+  right: 0;
+  transform: translate(90% , -65%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50% 50% 50% 0;
+  // background-color: #454545;
+  background-color: red;
+  border: inset 2px  #454545;
+  -webkit-text-stroke: 1px #000;
+  color: #fff;
+}

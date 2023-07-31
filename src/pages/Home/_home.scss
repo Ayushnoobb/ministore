@@ -1,0 +1,26 @@
+.splash{
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  mask-image: url("../public/img/home/splash.png");
+  mask-size: 47%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat; 
+  mask-position: center;
+  opacity: 0.9;
+}
+.splash > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home .container > h2 {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 4rem;
+  z-index: 2;
+  font-size: bold;
+}
